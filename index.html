@@ -1,107 +1,577 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-	<title>Syed Usama Zubair</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
+  <title>Syed Usama Zubair</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="description" content="">
+  <meta name="keywords" content="html, css, javascript, jquery">
+  <meta name="author" content="">
+	<link rel="icon" type="image/png" href="images/favicon.ico"/>
+  <link rel="stylesheet" href="css/vendor/icomoon/style.css">
+  <link rel="stylesheet" href="css/vendor/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/vendor/animate.min.css">
+  <link rel="stylesheet" href="css/vendor/aos.css">
+  <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css">
+  <!-- Theme Style -->
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .grey {
+      filter: grayscale(1);
+    }
+
+    .grey:hover {
+      filter: grayscale(0);
+      transition: all 0.4s;
+    }
+
+    .contact-info-v1 {
+      width: 100%;
+    }
+
+    .column-2-mid {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      width: 100%;
+    }
+  </style>
 </head>
-<body>
-	
-	
-	<div class="bg-g1 size1 flex-w flex-col-c-sb p-l-15 p-r-15 p-t-55 p-b-35 respon1">
-		<span></span>
-		<div class="flex-col-c p-t-50 p-b-50">
-			<h3 class="l1-txt1 txt-center p-b-10">
-				Coming Soon
-			</h3>
 
-			<p class="txt-center l1-txt2 p-b-60">
-				Portfolio is under construction
-			</p>
+<body style="overflow-x: hidden;" data-spy="scroll" data-target=".site-nav-target" data-offset="200">
 
-			<div class="flex-w flex-c cd100 p-b-82">
-				<div class="flex-col-c-m size2 how-countdown">
-					<span class="l1-txt3 p-b-9 days">4</span>
-					<span class="s1-txt1">Days</span>
-				</div>
+  <nav class="unslate_co--site-mobile-menu">
+    <div class="close-wrap d-flex">
+      <a href="#" class="d-flex ml-auto js-menu-toggle">
+        <span class="close-label">Close</span>
+        <div class="close-times">
+          <span class="bar1"></span>
+          <span class="bar2"></span>
+        </div>
+      </a>
+    </div>
+    <div class="site-mobile-inner"></div>
+  </nav>
 
-				<div class="flex-col-c-m size2 how-countdown">
-					<span class="l1-txt3 p-b-9 hours">5</span>
-					<span class="s1-txt1">Hours</span>
-				</div>
 
-				<div class="flex-col-c-m size2 how-countdown">
-					<span class="l1-txt3 p-b-9 minutes">50</span>
-					<span class="s1-txt1">Minutes</span>
-				</div>
+  <div class="unslate_co--site-wrap">
 
-				<div class="flex-col-c-m size2 how-countdown">
-					<span class="l1-txt3 p-b-9 seconds">39</span>
-					<span class="s1-txt1">Seconds</span>
-				</div>
-			</div>
+    <div class="unslate_co--site-inner">
 
-		</div>
+      <div class="lines-wrap">
+        <div class="lines-inner">
+          <div class="lines"></div>
+        </div>
+      </div>
+      <!-- END lines -->
 
-		<span class="s1-txt3 txt-center">
-			@ 2023 Get Tech.
-		</span>
-		
-	</div>
+      <nav class="unslate_co--site-nav site-nav-target" style="width: 100%;">
 
-	
-<!--===============================================================================================-->	
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/moment.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-	<script>
-		$('.cd100').countdown100({
-			// Set Endtime here
-			// Endtime must be > current time
-			endtimeYear: 0,
-			endtimeMonth: 0,
-			endtimeDate: 10,
-			endtimeHours: 18,
-			endtimeMinutes: 0,
-			endtimeSeconds: 0,
-			timeZone: "" 
-			// ex:  timeZone: "America/New_York", can be empty
-			// go to " http://momentjs.com/timezone/ " to get timezone
-		});
-	</script>
-<!--===============================================================================================-->
-	<script src="vendor/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
+        <div class="container" style="width: 100%;">
+
+          <div class="row align-items-center justify-content-between text-left">
+            <div class="col-md-5 text-right">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li class="has-children">
+                  <a href="#home-section" class="nav-link">Home</a>
+                </li>
+                <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
+                <li><a href="#about-section" class="nav-link">About</a></li>
+                <li><a href="#services-section" class="nav-link">Services</a></li>
+              </ul>
+            </div>
+            <div class="site-logo pos-absolute">
+              <a href="index.html" class="unslate_co--site-logo">SUZ<span>.</span></a>
+            </div>
+            <div class="col-md-5 text-right text-lg-left">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li><a href="#skills-section" class="nav-link">Skills</a></li>
+                <!-- <li><a href="#testimonial-section" class="nav-link">Testimonial</a></li> -->
+                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+              </ul>
+
+              <ul class="site-nav-ul-none-onepage text-right d-inline-block d-lg-none">
+                <li><a href="#" class="js-menu-toggle">Menu</a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+      </nav>
+      <!-- END nav -->
+
+      <div class="cover-v1 jarallax" style="background-image: url('images/Syed Usama Zubair (cover).png');" id="home-section">
+        <div class="container">
+          <div class="row align-items-center">
+
+            <div class="col-md-7 mx-auto text-center">
+              <h1 class="heading gsap-reveal-hero" style="font-size: 2rem;">Syed Usama Zohaib</h1>
+              <h2 class="subheading gsap-reveal-hero">Boosting Google Rankings Since 2022</h2>
+            </div>
+
+          </div>
+        </div>
+
+
+        <a href="#portfolio-section" class="mouse-wrap smoothscroll">
+          <span class="mouse">
+            <span class="scroll"></span>
+          </span>
+          <span class="mouse-label">Scroll</span>
+        </a>
+
+      </div>
+      <!-- END .cover-v1 -->
+
+
+      <div class="unslate_co--section" id="portfolio-section"  style="width: 100vw !important; overflow-x: hidden;">
+        <div class="container">
+
+
+          <div class="relative">
+            <div class="loader-portfolio-wrap">
+              <div class="loader-portfolio"></div>
+            </div>
+          </div>
+          <div id="portfolio-single-holder"></div>
+
+          <div class="portfolio-wrapper">
+
+            <div class="d-flex align-items-center mb-4 gsap-reveal gsap-reveal-filter">
+              <h2 class="mr-auto heading-h2"><span class="gsap-reveal">Portfolio</span></h2>
+            </div>
+
+
+
+            <div id="posts" class="row gutter-isotope-item">
+              <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a class="portfolio-item  isotope-item gsap-reveal-img">
+                  <div class="overlay">
+
+                    <div class="portfolio-item-content">
+                      <h3>SEO Service</h3>
+                      <p>WEBSITE</p>
+                    </div>
+                  </div>
+                  <img src="images/SEO Expert Poster.png" class="lazyload  img-fluid" alt="Images" />
+                </a>
+              </div>
+              <div class="item branding packaging illustration col-sm-6 col-md-6 col-lg-4 isotope-mb-2 ">
+                <a class="portfolio-item   item-portrait isotope-item gsap-reveal-img" data-id="3">
+                  <div class="overlay">
+
+                    <div class="portfolio-item-content">
+                      <h3>Marketing</h3>
+                      <p>Poster Design</p>
+                    </div>
+                  </div>
+                  <img src="images/Graphic Design Poster.png" class="lazyload  img-fluid" alt="Images" />
+                </a>
+              </div>
+
+              <div class="item branding packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a class="portfolio-item isotope-item gsap-reveal-img  " data-id="4">
+                  <div class="overlay">
+
+                    <div class="portfolio-item-content">
+                      <h3>SEO EXPERT</h3>
+                      <p>Service</p>
+                    </div>
+                  </div>
+                  <img src="images/SEO Expert Poster.png" class="lazyload  img-fluid" alt="Images" />
+                </a>
+              </div>
+
+              <div class="item web packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+
+                <a class="portfolio-item isotope-item gsap-reveal-img" data-fancybox="gallery" data-caption="Watch">
+                  <div class="overlay">
+
+                    <div class="portfolio-item-content">
+                      <h3>SEO EXPERT</h3>
+                      <p>Service</p>
+                    </div>
+                  </div>
+                  <img src="images/SEO Expert.png" class="lazyload  img-fluid" alt="Images" />
+                </a>
+
+              </div>
+
+              <div class="item illustration packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a class="portfolio-item isotope-item gsap-reveal-img" data-fancybox="gallery"
+                  data-caption="Shoe Rebranding">
+                  <div class="overlay">
+
+                    <div class="portfolio-item-content">
+                      <h3>Live Consert</h3>
+                      <p>Poster Design</p>
+                    </div>
+                  </div>
+                  <img src="images/Graphic Poster.png" class="lazyload  img-fluid" alt="Images" />
+                </a>
+              </div>
+
+              <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a class="portfolio-item   item-portrait isotope-item gsap-reveal-img" data-id="2">
+                  <div class="overlay">
+
+                    <div class="portfolio-item-content">
+                      <h3>Live Webinar</h3>
+                      <p>Poster Design</p>
+                    </div>
+                  </div>
+                  <img src="images/Poster Design.png" class="lazyload  img-fluid" alt="Images" />
+                </a>
+              </div>
+
+          
+
+         
+
+            
+
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+
+
+      <div class="unslate_co--section">
+        <div class="container">
+          <div class="owl-carousel logo-slider">
+            <a href="https://www.youtube.com/@syedusamazohaib4027" target="_blank">
+              <div class="logo-v1 gsap-reveal">
+                <img src="images/Youtube.png" alt="Image" class="img-fluid grey">
+              </div>
+            </a>
+            <a href="https://www.facebook.com/syed007.shah" target="_blank">
+              <div class="logo-v1 gsap-reveal">
+                <img src="images/Facebook.png" alt="Image" class="img-fluid grey">
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/syed-usama-zohaib-419a99296/" target="_blank">
+              <div class="logo-v1 gsap-reveal">
+                <img src="images/Linkedin.png" alt="Image" class="img-fluid grey">
+              </div>
+            </a>
+
+            <a href="https://www.instagram.com/syed_usama.ali/?igshid=NzZlODBkYWE4Ng%3D%3D" target="_blank">
+              <div class="logo-v1 gsap-reveal">
+                <img src="images/Instagram.png" alt="Image" class="img-fluid grey">
+              </div>
+            </a>
+            <a href="https://twitter.com/UsamaAl14345584" target="_blank">
+              <div class="logo-v1 gsap-reveal">
+                <img src="images/Twitter.png" alt="Image" class="img-fluid grey">
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="unslate_co--section" id="about-section">
+        <div class="container">
+
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">About Me</span></h2>
+            <span class="gsap-reveal">
+              <img src="images/divider.png" alt="divider" width="76">
+            </span>
+          </div>
+
+
+          <div class="row mt-5 justify-content-between">
+            <div class="col-lg-7 mb-5 mb-lg-0">
+              <figure class="dotted-bg gsap-reveal-img ">
+                <img src="images/Syed Usama Zubair (about).png" alt="Image" class="img-fluid">
+              </figure>
+            </div>
+            <div class="col-lg-4 pr-lg-5">
+              <h3 class="mb-4 heading-h3"><span class="gsap-reveal">Navigating Digital Success Together</span></h3>
+              <p class="lead gsap-reveal">As an aspiring SEO expert and graphic designer, I'm dedicated to honing my skills and becoming your go-to 'SEO expert near me.' Although I'm new to the field, my passion lies in optimizing websites for top search engine rankings, boosting your online presence, and implementing effective SEO strategies.</p>
+              <p class="mb-4 gsap-reveal">My creative journey spans from graphic design to crafting user interfaces that are not only visually engaging but also user-friendly. My mission is to make your website not only rank high but also shine with a stunning design. So, if you're searching to 'hire an SEO expert' who's committed to your 'digital success,' I'm here to embark on this exciting journey with you.</p>
+              <p class="gsap-reveal"><a href="Syed Usama Zohaib.pdf" target="_blank"
+                  class="btn btn-outline-pill btn-custom-light">Download my CV</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="unslate_co--section" id="services-section">
+        <div class="container">
+
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">My Services</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+
+          <div class="row gutter-v3">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="0">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/001-options.svg" alt="Image" width="45">
+                </div>
+                <h3>Keyword Research & Optimization</h3>
+                <p>Thorough keyword analysis and optimization to ensure your content ranks for the right search queries.</p>
+              </div>
+            </div>
+          
+      
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="0">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/004-percentage.svg" alt="Image" width="45">
+                </div>
+                <h3>Technical SEO Audits</h3>
+                <p>Comprehensive site audits to identify and resolve technical issues that may hinder search engine performance.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="100">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/006-goal.svg" alt="Image" width="45">
+                </div>
+                <h3>Local SEO</h3>
+                <p>Enhancing your visibility in local searches to attract nearby customers looking for your services. </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/005-line-chart.svg" alt="Image" width="45">
+                </div>
+                <h3>Content Strategy</h3>
+                <p>Content Strategy: Developing content that not only ranks well but also engages and converts your audience.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="0">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/001-options.svg" alt="Image" width="45">
+                </div>
+                <h3>SEO Reporting</h3>
+                <p>Regularly monitoring and providing reports on your site's performance, making data-driven improvements.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="100">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/002-chat.svg" alt="Icon" width="45">
+                </div>
+                <h3>SEO Consulting</h3>
+                <p>Expert advice and guidance to help you navigate the ever-changing SEO landscape and stay ahead of your competitors.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="100">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/002-chat.svg" alt="Icon" width="45">
+                </div>
+                <h3>On-Page SEO & Off-Page SEO</h3>
+                <p>Implementing best practices in on-page SEO, including Meta tags, headings, and content optimization. Crafting effective backlink strategies and outreach to boost your website's authority.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/003-contact-book.svg" alt="Image" class="img-fluid" width="45">
+                </div>
+                <h3>Canva</h3>
+                <p>I'm a passionate graphic designer with a flair for creating captivating visuals on Canva. Whether it's social media graphics, marketing materials, or eye-catching presentations, I bring your ideas to life. With a keen eye for detail and a commitment to making your brand stand out, I'm here to transform your vision into stunning designs that resonate with your audience. Let's collaborate to make your visual identity shine!</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/003-contact-book.svg" alt="Image" class="img-fluid" width="45">
+                </div>
+                <h3>Photoshop</h3>
+                <p>I'm a skilled graphic designer with expertise in Photoshop. From image retouching to creating intricate digital art, I have the tools and creativity to make your visual concepts a reality. With a passion for precision and a commitment to delivering exceptional results, I'm ready to enhance your visuals and bring your ideas to life. Let's collaborate and turn your vision into striking visual masterpieces.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="unslate_co--section section-counter" id="skills-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">My Skills</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+
+
+          <div class="row pt-5">
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="95">0</span>
+                  <span class="append-text">%</span>
+                </span>
+                <span class="counter-label">Marketing</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="96">0</span>
+                  <span class="append-text">%</span>
+                </span>
+                <span class="counter-label">SEO</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="93">0</span>
+                  <span class="append-text">%</span>
+                </span>
+                <span class="counter-label">CANVA</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="94">0</span>
+                  <span class="append-text">%</span>
+                </span>
+                <span class="counter-label">PHOTOSHOP</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END .counter -->
+
+      <!-- Testimonial Start  -->
+<!-- 
+      <div class="unslate_co--section" id="testimonial-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">My Happy Clients</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+        </div>
+
+        <div class="owl-carousel testimonial-slider" data-aos="fade-up">
+        
+       
+          <div>
+            <div class="testimonial-v1">
+              <div class="testimonial-inner-bg">
+                <span class="quote">&ldquo;</span>
+                <blockquote>
+                  Working with Mujtaba Azhar to create the website for AutoMotors has been an absolute pleasure and
+                  a game-changer for our business. Mujtaba Azhar's expertise and dedication in crafting our software
+                  house
+                  landing website are truly commendable.
+                  The website perfectly captures our brand's essence, presenting a seamless blend of creativity and
+                  professionalism. From the sleek design elements to the intuitive user interface, every aspect has been
+                  meticulously thought out. The way Mujtaba Azhar translated our vision into a digital reality is
+                  nothing
+                  short of impressive.
+                </blockquote>
+              </div>
+
+              <div class="testimonial-author-info">
+                <img src="images/z.jpg" alt="Image">
+                <h3>Zain Abbas</h3>
+                <span class="d-block position">Managing Director</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div> -->
+      <!-- END testimonial -->
+      <div class="unslate_co--section" id="contact-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Get In Touch</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+
+
+          <div class="row justify-content-between">
+
+
+
+            <div class="column-2-mid">
+              <div class="contact-info-v1">
+                <div class="gsap-reveal d-block">
+                  <span class="d-block contact-info-label">Email</span>
+                  <a class="contact-info-val">uali23669@gmail.com</a>
+                  <span class="d-block contact-info-label">Phone</span>
+                  <a class="contact-info-val">+92 308 8311193</a>
+                </div>
+                <div class="gsap-reveal d-block">
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div> <!-- END .unslate_co-site-inner -->
+
+    <footer class="unslate_co--footer unslate_co--section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-7">
+
+            <div class="footer-site-logo"><a href="#">SUZ<span>.</span></a></div>
+
+            <ul class="footer-site-social">
+              <li><a href="https://www.facebook.com/syed007.shah" target="_blank">Facebook</a></li>
+              <li><a href="https://www.linkedin.com/in/syed-usama-zohaib-419a99296/" target="_blank">LinkedIn</a></li>
+              <li><a href="https://www.instagram.com/syed_usama.ali/?igshid=NzZlODBkYWE4Ng%3D%3D" target="_blank">Instagram</a></li>
+              
+            </ul>
+
+            <!-- <p class="site-copyright"> -->
+
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            <!-- Copyright &copy; All Copyright Reserved -->
+            <!-- <script>
+                  document.write(new Date().getFullYear());
+                </script> All rights reserved | This template is made with <i class="icon-heart"
+                  aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+            <!-- </p> -->
+
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+  </div>
+
+
+  <!-- Loader -->
+  <div id="unslate_co--overlayer"></div>
+  <div class="site-loader-wrap">
+    <div class="site-loader"></div>
+  </div>
+
+  <script src="js/scripts-dist.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
+
 </html>
